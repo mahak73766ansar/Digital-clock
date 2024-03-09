@@ -1,0 +1,30 @@
+*{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+}
+#container{
+height:100%;
+width:100%;
+position: absolute;
+/* background-color: aqua; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: rgb(249, 8, 8);
+font-size: 50px;
+background-color: black;
+}
+#clock{
+height:50%;
+width:70%;
+color: rgb(241, 239, 239);
+background-color: black; 
+position: relative;
+font-size: 200px;
+color: brown;
+text-align: center;
+/* top: 50%; */
+/* transform: translate(-50%, -50%); */
+}
